@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color:lavenderblush;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px;
+    align-items: center;
+}
+ #logolink a{
+ margin: 10px;
+ text-decoration: none;
+ color: black;
+    padding: 10px;
+font-size: 16pt;
+ }
+a:hover{
+    background-color:hotpink;
+    border-radius: 5px;
+}
+ .active{
+border-bottom: solid deeppink;
+   
+ }
+ section{
+    display: flex;
+    height: 400pt;
+    justify-content:space-around;
+    align-items: flex-start;
+    margin: 100px;
+ }
+ #grad{
+    background-image:linear-gradient(to right,deeppink,purple);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+section h4{
+    font-size: 20pt;
+}
+#my{
+ text-align: center;
+}
+#img{
+    margin: 100pt;
+align-content:right;
+    display: flex;
+justify-content: space-evenly;
+}
+.insta{
+    display: flex;
+    margin: 100px;
+    padding: 30;   
+ justify-content: center;
+}
+#main{
+    margin: 20px;
+    align-content:right;
+    display: flex;
+justify-content: space-evenly;
+}
+#e{
+    border-bottom: solid deeppink;
+}
