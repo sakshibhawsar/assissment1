@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+#style{
+    border: solid thin;
+    height: 400pt;
+    width: 400px;
+}
+#insta{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+   margin-top: 40pt;
+   height: 60pt;
+    font-family:Brush Script MT;
+}
+#page{
+    margin: 30pt;
+    justify-content: center;
+    text-align: center;
+}
+.len{
+    width: 300px;
+    height: 30px;
+}
+#submit{
+    width: 300px;
+    height: 30px;
+    background-color: skyblue;
+    color: white;
+    font-size: large;
+    border-color: skyblue;
+}
+.line{
+ width: 300px;
+ height: 1px;
+ background-color: black;
+ align-self: center;
+ margin:5px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+}
+#img{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#forget{
+    display: flex;
+    justify-content: center;
+}
