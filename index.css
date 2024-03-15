@@ -28,7 +28,7 @@ border-bottom: solid deeppink;
  }
  section{
     display: flex;
-    height: 400pt;
+    height: 300pt;
     justify-content:space-around;
     align-items: flex-start;
     margin: 100px;
@@ -60,5 +60,169 @@ justify-content: space-evenly;
     margin: 20px;
     align-content:right;
     display: flex;
-justify-content: space-evenly;
+justify-content: space-between;
+}
+#e{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+#line{
+    width: 900px;
+    height: 3px;
+    background-image: linear-gradient( to right,purple,deeppink,rgba(255,255,255,0.1));
+    margin-top: 6px;
+    margin-left: 2px;
+}
+#all{
+    display: flex;
+    align-items: center;
+}
+.degree{
+    width:100px;
+    margin-left: 290px;
+    margin-top:50px ;
+}
+#box{
+
+    margin-top: 50px;
+    width: 200px;
+    height:200px;
+    border: solid thin black;
+    background-color: white;
+    box-shadow: 10px 10px 5px 2px grey;
+    border-bottom: solid thick blue;
+}
+#graphic{
+    margin-left: 80px;
+    margin-top: 15px;
+}
+.text{
+    margin-top: 40px;
+    text-align: center;
+}
+#border{
+    display: flex;
+    justify-content: space-evenly;
+}
+#box1{
+
+    margin-top: 50px;
+    width: 200px;
+    height:200px;
+    border: solid thin black;
+    background-color: white;
+    box-shadow: 10px 10px 5px 2px grey;
+    border-bottom: solid thick yellow;
+}
+#box2{
+   
+    margin-top: 50px;
+    width: 200px;
+    height:200px;
+    border: solid thin black;
+    background-color: white;
+    box-shadow: 10px 10px 5px 2px grey;
+    border-bottom: solid thick red;
+}
+#box3{
+
+    margin-top: 50px;
+    width: 200px;
+    height:200px;
+    border: solid thin black;
+    background-color: white;
+    box-shadow: 10px 10px 5px 2px grey;
+    border-bottom: solid thick teal;
+}
+#graphic1{
+    margin-left: 85px;
+    margin-top: 15px;
+}
+#graphic2{
+    margin-left: 85px;
+    margin-top: 15px;
+}
+#graphic3{
+    margin-left: 85px;
+    margin-top: 15px;
+}
+#box:hover{
+    box-shadow:10px 10px 3px 1px lightgrey ;
+}
+#box1:hover{
+    box-shadow:10px 10px 3px 1px lightgrey ;
+}
+
+#box2:hover{
+    box-shadow:10px 10px 3px 1px lightgrey ;
+}
+#box3:hover{
+    box-shadow:10px 10px 3px 1px lightgrey ;
+}
+.line1{
+    position: relative;
+    height: 5px;
+    width: 300px;
+    background: grey;
+    display: block;
+}
+#color{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 75%;
+    background:blue ;
+}
+#color1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 85%;
+    background:yellow ;
+}
+#color2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 70%;
+    background:teal ;
+}
+#color3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 60%;
+    background:red ;
+}
+#color4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 90%;
+    background:purple;
+}
+#color5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80%;
+    background:darkblue;
+}
+#percent{
+    display: flex;
+   margin-top: 50px;
+}
+#photo{
+    margin-left: 200px;
+}
+#css{
+    margin-left: 30px;
 }

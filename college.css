@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+}
+header{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+}
+#head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+#home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    height: 40px;
+    background-color: royalblue;
+    margin-top: 30px;
+}
+#home a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+   
+}
+#img{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+.active{
+    border-bottom: solid white;
+}
+#home a:hover{
+      background-color: white;
+      color:royalblue;
+      transition: all 1s;
+      border-radius: 5px;
+}
+#dadaji{
+    display: flex;
+    margin-top: 50px;
+    text-align: justify;
+    margin-left: 50px;
+    align-items: center;
+    margin-top: 200px;
+}
+#text{
+    font-size: 20pt;
+    margin-right: 30px;
+}
+#text1{
+    margin-left:50px ;
+    margin-top: 30px;
+}
+#course{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+#tag{
+    margin-top: 20px;
+    text-align: justify;
+    width: 1500px;
+    font-size: 16pt;
+    background-color:peachpuff ;
+}
+#tag1{
+    margin-top: 20px;
+    text-align: justify;
+    width: 1500px;
+    font-size: 16pt;
+    background-color:lemonchiffon;
+}
+#tag2{
+    margin-top: 20px;
+    text-align: justify;
+    width: 1500px;
+    font-size: 16pt;
+    background-color:paleturquoise ;
+}
+#tag3{    margin-top: 20px;
+    text-align: justify;
+    width: 1500px;
+    font-size: 16pt;
+    background-color:lightsteelblue ;
+}
+#tag4{
+    margin-top: 20px;
+    text-align: justify;
+    width: 1500px;
+    font-size: 16pt;
+    background-color:bisque;
+}
+#tag5{
+    margin-top: 20px;
+    text-align: justify;
+    width: 1500px;
+    font-size: 16pt;
+    background-color: powderblue;
+}
+#tag6{
+    margin-top: 20px;
+    text-align: justify;
+    width: 1500px;
+    font-size: 16pt;
+    background-color: plum;
+}
+#tag7{
+    margin-top: 20px;
+    text-align: justify;
+    width: 1500px;
+    font-size: 16pt;
+    background-color:lightgrey ;
+}
+.staff{
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mem{
+    display: flex;
+    justify-content: center;
+}
+.border{
+    border: solid thin salmon;
+    box-shadow: 10px 10px 3px 1px moccasin;
+}
+.fac{
+    margin-top: 200px;
+}
+.sdits{
+    display: flex;
+    justify-content: center;
+    color: navy;
+    font-size: 20pt;
+}
+.branch{
+    font-size: 16pt;
+    text-align: center;
+}
+#add{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dance{
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-evenly;
+}
+#detail{
+    margin-top: 100px;
+}
